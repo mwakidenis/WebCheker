@@ -62,28 +62,25 @@ The aim is to help you easily understand, optimize and secure your website.
 <details>
       <summary>Expand Screenshot</summary>
 
-[![Screenshot](https://raw.githubusercontent.com/Lissy93/web-check/master/.github/screenshots/web-check-screenshot1.png)](https://web-check.as93.net/)
+[![Screenshot](https://raw.githubusercontent.com/mwakidenis/web-check/master/.github/screenshots/web-check-screenshot1.png)](https://web-check.as93.net/)
       
 </details>
 
-[![Screenshot](https://i.ibb.co/r0jXN6s/web-check.png)](https://github.com/Lissy93/web-check/tree/master/.github/screenshots)
+[![Screenshot](https://i.ibb.co/r0jXN6s/web-check.png)](https://github.com/mwakidenis/web-check/tree/master/.github/screenshots)
 
 ### Live Demo
 A hosted version can be accessed at: **[web-check.as93.net](https://web-check.as93.net)**
-
-### Mirror
-The source for this repo is mirrored to CodeBerg, available at: **[codeberg.org/alicia/web-check](https://codeberg.org/alicia/web-check)**
 
 ### Status
 
 
 Build & Deploys: [![Netlify Status](https://api.netlify.com/api/v1/badges/c43453c1-5333-4df7-889b-c1d2b52183c0/deploy-status)](https://app.netlify.com/sites/web-check/deploys)
 [![Vercel Status](https://therealsujitk-vercel-badge.vercel.app/?app=web-check-ten)](https://vercel.com/as93/web-check/)
-[![🐳 Build + Publish Docker Image](https://github.com/Lissy93/web-check/actions/workflows/docker.yml/badge.svg)](https://github.com/Lissy93/web-check/actions/workflows/docker.yml)
-[![🚀 Deploy to AWS](https://github.com/Lissy93/web-check/actions/workflows/deploy-aws.yml/badge.svg)](https://github.com/Lissy93/web-check/actions/workflows/deploy-aws.yml)
+[![🐳 Build + Publish Docker Image](https://github.com/mwakidenis/web-check/actions/workflows/docker.yml/badge.svg)](https://github.com/mwakidenis/web-check/actions/workflows/docker.yml)
+[![🚀 Deploy to AWS](https://github.com/mwakidenis/web-check/actions/workflows/deploy-aws.yml/badge.svg)](https://github.com/mwakidenis/web-check/actions/workflows/deploy-aws.yml)
 <br />
-Repo Management & Miscellaneous: [![🪞 Mirror to Codeberg](https://github.com/Lissy93/web-check/actions/workflows/mirror.yml/badge.svg)](https://github.com/Lissy93/web-check/actions/workflows/mirror.yml)
-[![💓 Inserts Contributors & Sponsors](https://github.com/Lissy93/web-check/actions/workflows/credits.yml/badge.svg)](https://github.com/Lissy93/web-check/actions/workflows/credits.yml)
+Repo Management & Miscellaneous: [![🪞 Mirror to Codeberg](https://github.com/mwakidenis/web-check/actions/workflows/mirror.yml/badge.svg)](https://github.com/mwakidenis/web-check/actions/workflows/mirror.yml)
+[![💓 Inserts Contributors & Sponsors](https://github.com/mwakidenis/web-check/actions/workflows/credits.yml/badge.svg)](https://github.com/mwakidenis/web-check/actions/workflows/credits.yml)
 
 
 ### Features
@@ -775,18 +772,18 @@ Click the button below, to deploy to Netlify 👇
 
 Click the button below, to deploy to Vercel 👇
 
-[![Deploy with Vercel](https://img.shields.io/badge/Deploy-Vercel-%23ffffff?style=for-the-badge&logo=vercel&labelColor=1e0e41)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flissy93%2Fweb-check&project-name=web-check&repository-name=web-check-fork&demo-title=Web-Check%20Demo&demo-description=Check%20out%20web-check.xyz%20to%20see%20a%20live%20demo%20of%20this%20application%20running.&demo-url=https%3A%2F%2Fweb-check.xyz&demo-image=https%3A%2F%2Fraw.githubusercontent.com%2FLissy93%2Fweb-check%2Fmaster%2F.github%2Fscreenshots%2Fweb-check-screenshot10.png)
+[![Deploy with Vercel](https://img.shields.io/badge/Deploy-Vercel-%23ffffff?style=for-the-badge&logo=vercel&labelColor=1e0e41)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2mwakidenis%2Fweb-check&project-name=web-check&repository-name=web-check-fork&demo-title=Web-Check%20Demo&demo-description=Check%20out%20web-check.xyz%20to%20see%20a%20live%20demo%20of%20this%20application%20running.&demo-url=https%3A%2F%2Fweb-check.xyz&demo-image=https%3A%2F%2Fraw.githubusercontent.com%2mwakidenis%2Fweb-check%2Fmaster%2F.github%2Fscreenshots%2Fweb-check-screenshot10.png)
 
 ### Deploying - Option #3: Docker
 
-Run `docker run -p 3000:3000 lissy93/web-check`, then open [`localhost:3000`](http://localhost:3000)
+Run `docker run -p 3000:3000 mwakidenis/web-check`, then open [`localhost:3000`](http://localhost:3000)
 
 <details>
 <summary>Docker Options</summary>
 
 You can get the Docker image from:
-- DockerHub: [`lissy93/web-check`](https://hub.docker.com/r/lissy93/web-check)
-- GHCR: [`ghcr.io/lissy93/web-check`](https://github.com/Lissy93/web-check/pkgs/container/web-check)
+- DockerHub: [`mwakidenis/web-check`](https://hub.docker.com/r/mwakidenis/web-check)
+- GHCR: [`ghcr.io/mwakidenis/web-check`](https://github.com/mwakidenis/web-check/pkgs/container/web-check)
 - Or build the image yourself by cloning the repo and running `docker build -t web-check .`
 
 </details>
@@ -796,7 +793,7 @@ You can get the Docker image from:
 Install the prerequisites listed in the [Developing](#developing) section, then run: 
 
 ```bash
-git clone https://github.com/Lissy93/web-check.git  # Download the code from GitHub
+git clone https://github.com/mwakidenis/web-check.git  # Download the code from GitHub
 cd web-check                                        # Navigate into the project dir
 yarn install                                        # Install the NPM dependencies
 yarn build                                          # Build the app for production
@@ -877,7 +874,7 @@ For Code of Conduct, see [Contributor Convent](https://www.contributor-covenant.
 
 To get started, fork the repo, make your changes, add, commit and push the code, then come back here to open a pull request. If you're new to GitHub or open source, [this guide](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3#let-s-make-our-first-pull-request-) or the [git docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) may help you get started, but feel free to reach out if you need any support.
 
-[![Submit a PR](https://img.shields.io/badge/Submit_a_PR-GitHub-%23060606?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/Lissy93/web-check/compare)
+[![Submit a PR](https://img.shields.io/badge/Submit_a_PR-GitHub-%23060606?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/mwakidenis/web-check/compare)
 
 
 ### Reporting Bugs
@@ -885,7 +882,7 @@ To get started, fork the repo, make your changes, add, commit and push the code,
 If you've found something that doesn't work as it should, or would like to suggest a new feature, then go ahead and raise a ticket on GitHub.
 For bugs, please outline the steps needed to reproduce, and include relevant info like system info and resulting logs.
 
-[![Raise an Issue](https://img.shields.io/badge/Raise_an_Issue-GitHub-%23060606?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/Lissy93/web-check/issues/new/choose)
+[![Raise an Issue](https://img.shields.io/badge/Raise_an_Issue-GitHub-%23060606?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/mwakidenis/web-check/issues/new/choose)
 
 ### Supporting
 
@@ -894,7 +891,7 @@ But due to the amount of traffic that the hosted instance gets, the lambda funct
 Any help with covering the costs via GitHub Sponsorship would be much appreciated.
 It's thanks to the support of the community that this project is able to be freely available for everyone :)
 
-[![Sponsor Lissy93 on GitHub](https://img.shields.io/badge/Sponsor_on_GitHub-Lissy93-%23ff4dda?style=for-the-badge&logo=githubsponsors&logoColor=ff4dda)](https://github.com/sponsors/Lissy93)
+[![Sponsor Lissy93 on GitHub](https://img.shields.io/badge/Sponsor_on_GitHub-mwakidenis-%23ff4dda?style=for-the-badge&logo=githubsponsors&logoColor=ff4dda)](https://github.com/sponsors/mwakidenis)
 
 
 ### Contributors
@@ -1102,7 +1099,7 @@ Credit to the following users for contributing to Web-Check
 
 ### Sponsors
 
-Huge thanks to these wonderful people, who sponsor me on GitHub, their support helps cover the costs required to keep Web-Check and my other projects free for everyone. Consider joining them, by [sponsoring me on GitHub](https://github.com/sponsors/Lissy93) if you're able.
+Huge thanks to these wonderful people, who sponsor me on GitHub, their support helps cover the costs required to keep Web-Check and my other projects free for everyone. Consider joining them, by [sponsoring me on GitHub](https://github.com/sponsors/mwakidenis) if you're able.
 
 <!-- readme: sponsors -start -->
 <table>
@@ -1270,7 +1267,7 @@ Huge thanks to these wonderful people, who sponsor me on GitHub, their support h
 
 ## License
 
-> _**[Lissy93/Web-Check](https://github.com/Lissy93/web-check)** is licensed under [MIT](https://github.com/Lissy93/web-check/blob/HEAD/LICENSE) © [Alicia Sykes](https://aliciasykes.com) 2023._<br>
+> _**[mwakidenis/Web-Check](https://github.com/mwakidenis/web-check)** is licensed under [MIT](https://github.com/mwakidenis/web-check/blob/HEAD/LICENSE) © [mwakidenis](https://github.com/mwakidenis) 2026._<br>
 > <sup align="right">For information, see <a href="https://tldrlegal.com/license/mit-license">TLDR Legal > MIT</a></sup>
 
 <details>
@@ -1278,7 +1275,7 @@ Huge thanks to these wonderful people, who sponsor me on GitHub, their support h
 
 ```
 The MIT License (MIT)
-Copyright (c) Alicia Sykes <alicia@omg.com> 
+Copyright (c) mwakidenis <mwakidenis@omg.com> 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy 
 of this software and associated documentation files (the "Software"), to deal 
@@ -1298,16 +1295,16 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-[![View Dependency Licenses & SBOM on FOSSA](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLissy93%2Fweb-check.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2FLissy93%2Fweb-check?ref=badge_large&issueType=license)
+[![View Dependency Licenses & SBOM on FOSSA](https://app.fossa.com/api/projects/git%2Bgithub.com%2mwakidenis%2Fweb-check.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2mwakidenis%2Fweb-check?ref=badge_large&issueType=license)
 
 </details>
 
 
 <!-- License + Copyright -->
 <p  align="center">
-  <i>© <a href="https://aliciasykes.com">Alicia Sykes</a> 2023</i><br>
-  <i>Licensed under <a href="https://gist.github.com/Lissy93/143d2ee01ccc5c052a17">MIT</a></i><br>
-  <a href="https://github.com/lissy93"><img src="https://i.ibb.co/4KtpYxb/octocat-clean-mini.png" /></a><br>
+  <i>© <a href="https://github.com/mwakidenis">mwakidenis</a> 2026</i><br>
+  <i>Licensed under <a href="https://gist.github.com/mwakidenis/143d2ee01ccc5c052a17">MIT</a></i><br>
+  <a href="https://github.com/mwakidenis"><img src="https://i.ibb.co/4KtpYxb/octocat-clean-mini.png" /></a><br>
   <sup>Thanks for visiting :)</sup>
 </p>
 
