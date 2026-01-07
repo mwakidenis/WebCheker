@@ -776,14 +776,14 @@ Click the button below, to deploy to Vercel 👇
 
 ### Deploying - Option #3: Docker
 
-Run `docker run -p 3000:3000 mwakidenis/web-check`, then open [`localhost:3000`](http://localhost:3000)
+Run `docker run -p 3000:3000 mwakidenis/WebCheck-OSINT`, then open [`localhost:3000`](http://localhost:3000)
 
 <details>
 <summary>Docker Options</summary>
 
 You can get the Docker image from:
-- DockerHub: [`mwakidenis/web-check`](https://hub.docker.com/r/mwakidenis/web-check)
-- GHCR: [`ghcr.io/mwakidenis/web-check`](https://github.com/mwakidenis/web-check/pkgs/container/web-check)
+- DockerHub: [`mwakidenis/WebCheck-OSINT`](https://hub.docker.com/r/mwakidenis/web-check)
+- GHCR: [`ghcr.io/mwakidenis/WebCheck-OSINT`](https://github.com/mwakidenis/web-check/pkgs/container/web-check)
 - Or build the image yourself by cloning the repo and running `docker build -t web-check .`
 
 </details>
@@ -793,7 +793,7 @@ You can get the Docker image from:
 Install the prerequisites listed in the [Developing](#developing) section, then run: 
 
 ```bash
-git clone https://github.com/mwakidenis/web-check.git  # Download the code from GitHub
+git clone https://github.com/mwakidenis/WebCheck-OSINT.git  # Download the code from GitHub
 cd web-check                                        # Navigate into the project dir
 yarn install                                        # Install the NPM dependencies
 yarn build                                          # Build the app for production
@@ -854,7 +854,7 @@ Note that keys that are prefixed with `REACT_APP_` are used client-side, and as 
 
 ### Developing
 
-1. Clone the repo, `git clone git@github.com:mwakidenis/Web-Check-OSINT.git`
+1. Clone the repo, `git clone git@github.com:mwakidenis/WebCheck-OSINT.git`
 2. Cd into it, `cd web-check`
 3. Install dependencies: `yarn`
 4. Start the dev server, with `yarn dev`
@@ -874,7 +874,7 @@ For Code of Conduct, see [Contributor Convent](https://www.contributor-covenant.
 
 To get started, fork the repo, make your changes, add, commit and push the code, then come back here to open a pull request. If you're new to GitHub or open source, [this guide](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3#let-s-make-our-first-pull-request-) or the [git docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) may help you get started, but feel free to reach out if you need any support.
 
-[![Submit a PR](https://img.shields.io/badge/Submit_a_PR-GitHub-%23060606?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/mwakidenis/web-check/compare)
+[![Submit a PR](https://img.shields.io/badge/Submit_a_PR-GitHub-%23060606?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/mwakidenis/WebCheck-OSINT/compare)
 
 
 ### Reporting Bugs
@@ -882,7 +882,7 @@ To get started, fork the repo, make your changes, add, commit and push the code,
 If you've found something that doesn't work as it should, or would like to suggest a new feature, then go ahead and raise a ticket on GitHub.
 For bugs, please outline the steps needed to reproduce, and include relevant info like system info and resulting logs.
 
-[![Raise an Issue](https://img.shields.io/badge/Raise_an_Issue-GitHub-%23060606?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/mwakidenis/web-check/issues/new/choose)
+[![Raise an Issue](https://img.shields.io/badge/Raise_an_Issue-GitHub-%23060606?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/mwakidenis/WebCheck-OSINT/issues/new/choose)
 
 ### Supporting
 
