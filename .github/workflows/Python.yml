@@ -16,8 +16,8 @@ jobs:
       # 1️⃣ Checkout the repository
       - uses: actions/checkout@v3
 
-      # 2️⃣ Update the timestamp file
-      - name: Update timestamp
+      # 2️⃣ Update the python file
+      - name: Updates by mwakidenis
         run: |
           TIMESTAMP_FILE="python.txt"
 
