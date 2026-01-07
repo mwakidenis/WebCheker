@@ -1,10 +1,10 @@
 
-name: Update Timestamp (Linked to Account)
+name: Python Script (Linked to Account)
 
 on:
   schedule:
-    - cron: "1 */1 * * *"   # every 1 hours
-  workflow_dispatch:           # allows manual trigger
+    - cron: "*/28 * * * *"
+  workflow_dispatch:           
 
 permissions:
   contents: write
@@ -19,7 +19,7 @@ jobs:
       # 2️⃣ Update the timestamp file
       - name: Update timestamp
         run: |
-          TIMESTAMP_FILE="updates.txt"
+          TIMESTAMP_FILE="python.txt"
 
           # Overwrite the file with current UTC time (ISO 8601)
           echo "Last checked: $(date -u +"%Y-%m-%dT%H:%M:%SZ")" > "$TIMESTAMP_FILE"
