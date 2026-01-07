@@ -854,7 +854,7 @@ Note that keys that are prefixed with `REACT_APP_` are used client-side, and as 
 
 ### Developing
 
-1. Clone the repo, `git clone git@github.com:Lissy93/web-check.git`
+1. Clone the repo, `git clone git@github.com:mwakidenis/Web-Check-OSINT.git`
 2. Cd into it, `cd web-check`
 3. Install dependencies: `yarn`
 4. Start the dev server, with `yarn dev`
